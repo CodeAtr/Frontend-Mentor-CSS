@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{
   margin: auto;
   font-family: "Outfit";
@@ -158,3 +159,165 @@ hr{
   color: hsl(178, 100%, 50%);
   opacity: 0.8;
 }
+=======
+body{
+  margin: auto;
+  font-family: "Outfit";
+  src: url('Outfit-Regular.ttf');
+  background-color: darkblue;
+  background-color: hsl(217, 54%, 11%);
+  letter-spacing: 1px;
+}
+
+h2{
+  color: white;
+}
+
+p{
+  color: lightblue;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+h3{
+  color: lightblue;
+  color: hsl(178, 100%, 50%);
+  display: inline;
+}
+span{
+  color: white;
+}
+
+hr{
+  background-color: navy;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 2px;
+}
+
+.img-hold{
+  width: 88%;
+  height: 352px;
+  background-color: lightblue;
+  background-color: hsl(178, 100%, 50%);
+  margin: 50px auto 41px auto;
+  border-radius: 9px;
+  position: relative;
+  top: 22px;
+}
+
+.view{
+  position: absolute;
+  left: 44%;
+  top: 42%;
+  opacity: 0;
+}
+
+.img-hold:hover{
+  opacity: 1;
+}
+
+.img-hold:hover .view{
+  opacity: 1;
+  transition: .5s ease;
+}
+
+
+.ethereum-pic{
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  z-index: 1;
+}
+
+.img-hold:hover .ethereum-pic{
+  opacity: 0.7;
+}
+
+.amount-day-left{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ethereum{
+  width: 10px;
+  height: auto;
+  padding-right: 2px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.eth-amount{
+  color: lightblue;
+  color: hsl(178, 100%, 50%);
+  display: inline;
+}
+.clock{
+  padding-left: 123px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.days{
+  display: inline;
+}
+
+
+.grid-container{
+  margin-top: 10%;
+}
+
+.text-cont{
+  width: auto;
+  height: auto;
+  padding-left: 24px;
+  padding-right: 25px;
+}
+
+.container{
+  width: 400px;
+  height: auto;
+  background-color: navy;
+  background-color: hsl(216, 50%, 16%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  box-shadow: 2px 2px 6px 2px;
+  color: gray;
+  color: rgba(0, 0, 0,0.2);
+}
+
+.creator-tag{
+  display: inline-block;
+  padding-top: 10px;
+  position: relative;
+  bottom: 24px;
+}
+
+.profile-picture{
+  display: inline-block;
+  width: 40px;
+  height: auto;
+  margin: 10px 9px 10px 0;
+  border-radius: 100%;
+  border: solid 1px white;
+}
+
+.title:hover{
+  color: lightblue;
+  color: hsl(178, 100%, 50%);
+  opacity: 0.7;
+}
+
+.creator-effect:hover{
+  color: lightblue;
+  color: hsl(178, 100%, 50%);
+  opacity: 0.8;
+}
+>>>>>>> Stashed changes
